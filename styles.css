@@ -92,6 +92,35 @@ body {
     }
   
     /* Adjust other elements as needed */
+    /* Base styles for larger screens */
+body {
+    font-size: 16px;
+    padding: 0 20px; /* Add padding to the left and right */
+  }
+  
+  /* Media query for screens 600px wide or smaller */
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px;
+      padding: 0 15px; /* Reduce padding for smaller screens */
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    /* Add margin or padding to other text elements as needed */
+    h1, h2, h3, p {
+      margin: 10px 0; /* Add vertical margin to text elements */
+    }
+  }
+  
+  
   }
   
   
