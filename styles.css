@@ -6,6 +6,7 @@ body {
     padding: 0;
 }
 
+
 header {
     background-color: #f4a261;
     padding: 20px;
@@ -70,3 +71,27 @@ margin: 20px 0;
     
     
 }
+/* Base styles for larger screens */
+body {
+    font-size: 16px;
+  }
+  
+  /* Media query for screens 600px wide or smaller */
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+    
+    .container {
+      padding: 10px;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    /* Adjust other elements as needed */
+  }
+  
+  
