@@ -119,8 +119,32 @@ body {
       margin: 15px 0; /* Add vertical margin to text elements */
     }
   }
+  /* Default Navigation Link Styles */
+nav ul li a {
+    color: #333; /* Default link color */
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity: 0.5;}
+    100% { opacity: 1;}
+}
+ nav ul li a.active {
+    background-color: #331010;
+    color: #fff;
+    border-radius: 5px;
+    animation: blink 1s infinite;
+ }
+ 
+
+
+
   
   
-  }
   
   
